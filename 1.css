@@ -2,8 +2,8 @@
 .zuo{width:200px; height:715px; font-family:华文新魏; font-size:24px; color:#F00; text-align:left; float:left;  background-color:#CCC; overflow-x:hidden;}
 .zuo:hover{}
 .you{width:1200px; height:715px;  background-color:#CCC; float:left; overflow-x:hidden;}
-.top{width: 1400px; height:60px; margin:0px; position:fixed;top:0;left:0;/*降导航条固定在顶部*/}
-.top1{width:200px; height:60px;font-weight:bold; text-align:center; line-height:60px; float:left; background-color:#99C; font-size:24px; color:#F00;}
+.top{width: 1400px; height:60px; font-family:华文新魏; margin:0px; position:fixed;top:0;left:0;/*降导航条固定在顶部*/}
+.top1{width:200px; height:60px;font-weight:bold; font-family:华文新魏; text-align:center; line-height:60px; float:left; background-color:#99C; font-size:24px; color:#F00;}
 .top1:hover{ background-color:#999; transition-duration: 2s }
 .buttom{font-size:36px; font-family:华文新魏; margin:0 auto;
  position:fixed; bottom:0;/*将div固定在底部*/ font-weight:bold; text-shadow:2px 3px 5px #666;  text-align:center; }
