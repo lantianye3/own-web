@@ -92,8 +92,19 @@ a:active {
 </div>
 <div class="you"><iframe name="a1" width=1166px;  height=715px; src="http://www.yxthfndv.byethost7.com" frameborder="0"></iframe></div></div>
 <script>
-function dd(){
-
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
+	<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#000&amp;text=我要分享"></script>
 </body>
 </html>
